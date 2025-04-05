@@ -15,6 +15,8 @@ public class CarroTest01 {
         carro2.modelo = "Jetta";     //Inicialização do Objeto 2
         carro2.ano = 2025;
 
+        carro = carro2;
+
         System.out.println("Nome: " + carro.nome + " Modelo: " + carro.modelo + " Ano: " + carro.ano);
         System.out.println("Nome: " + carro2.nome + " Modelo: " + carro2.modelo + " Ano: " + carro2.ano);
 
